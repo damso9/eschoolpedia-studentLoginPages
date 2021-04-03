@@ -1,0 +1,338 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    font-size: 16px;
+    background: #E5E5E5;
+    font-family: 'Open Sans', sans-serif;
+}
+.myBackground {
+    min-height: 100vh;
+    background-repeat: repeat;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.527),rgba(0, 0, 0, 0.5)) , url(./images/ben-white-123-unsplash.jpg);
+}
+.myBackground2 {
+    min-height: 100vh;
+    background-repeat: repeat;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.527),rgba(0, 0, 0, 0.5)) , url(./images/african-woman-teaching-children-class.png);
+}
+.cancelIcon {
+    float: right;
+    margin-top: 30px;
+    font-size: 2.0em;
+}
+.cancelIcon:hover {
+    cursor: pointer;
+}
+a:hover{
+    color: black;
+}
+.navbar {
+    clear: right;
+}
+/* .nav-item {
+    padding: 0px 20px;
+} */
+.nav-item {
+    padding: 0px 0px;
+    margin-left: 20px;
+    position: relative;
+    color: black;
+}
+.nav-link {
+    color: black;
+}
+#student, #parent, #admin, #staff{
+    color: #3CB161;
+}
+
+.active:hover {
+    color: #3CB161;
+}
+.nav-item::after{
+    content: "";
+    position: absolute;
+    background: green;
+    width: 0%;
+    height: 3px;
+    top: 38px;
+    left: 5px;
+}
+.nav-item:hover::after{
+    content: "";
+    position: absolute;
+    background: green;
+    width: 80%;
+    height: 3px;
+    top: 38px;
+    left: 5px;
+    transition: width 1s;
+    color: #3CB161;
+}
+
+.submitButton {
+    width: 100%;
+    color: white;
+    background: #3CB161;
+    border:none;
+    padding: 10px 0px;
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+.forgotPassword {
+    color: #838383;
+}
+.loginHeader {
+    color: #00386E;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.loginHeader h1 {
+    font-weight: 700;
+}
+.forgotPassword {
+    font-size: 1.1em;
+    color:#3CB161;
+    font-weight: 700;
+    margin-bottom: 30px;
+}
+.info-here a {
+    color:#3CB161;
+    font-weight: 700;
+    text-decoration: none;
+}
+.logo {
+    width: 20em;
+}
+.e, .schoolpedia {
+    font-size: 3.0em;
+    font-weight: 700;
+}
+.schoolpedia {
+    color: #3CB161;
+}
+.e {
+    color: #00386E;
+}
+.eschoolpedia {
+    padding-top: 30px;
+}
+.gotoHomepage {
+    margin-top: 30px;
+}
+.gotoHomepage p {
+    float: right;
+    color: black;
+    display: none;
+
+}
+.gotoHomepage p a {
+    text-decoration: none;
+    color: black;
+}
+.col-md-6 {
+    padding: 0px;
+}
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 767px) {
+    .myBackground {
+        min-height: 50vh;
+        background-repeat: repeat;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-image: linear-gradient(rgba(0, 0, 0, 0.527),rgba(0, 0, 0, 0.5)) , url(./images/ben-white-123-unsplash.jpg);
+    }
+    .myBackground2 {
+        min-height: 50vh;
+        background-repeat: repeat;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-image: linear-gradient(rgba(0, 0, 0, 0.527),rgba(0, 0, 0, 0.5)) , url(./images/african-woman-teaching-children-class.png);
+    }
+    .loginHeader h1 {
+        font-weight: 700;
+        text-align: center;
+    }
+    .gotoHomepage p {
+        float: right;
+        color: rgb(61, 41, 41);
+        display: initial;
+    
+    }
+    .gotoHomepage p a {
+        text-decoration: none;
+        color: black;
+    }
+    .cancelIcon {
+        float: right;
+        margin-top: 30px;
+        font-size: 2.0em;
+        display: none;
+    }
+    .navbar {
+        margin-top: 20px;
+    }
+    .e, .schoolpedia {
+        font-size: 2.0em;
+    }
+    .logo {
+        display: none;
+    }
+  }
+a:hover{
+    color: black;
+}
+.navbar {
+    clear: right;
+}
+/* .nav-item {
+    padding: 0px 20px;
+} */
+.nav-item {
+    padding: 0px 0px;
+    margin-left: 20px;
+    position: relative;
+    color: black;
+}
+.nav-link {
+    color: black;
+}
+#student, #parent, #admin, #staff{
+    color: #3CB161;
+}
+
+.active:hover {
+    color: #3CB161;
+}
+.nav-item::after{
+    content: "";
+    position: absolute;
+    background: green;
+    width: 0%;
+    height: 3px;
+    top: 38px;
+    left: 5px;
+}
+.nav-item:hover::after{
+    content: "";
+    position: absolute;
+    background: green;
+    width: 80%;
+    height: 3px;
+    top: 38px;
+    left: 5px;
+    transition: width 1s;
+    color: #3CB161;
+}
+
+.submitButton {
+    width: 100%;
+    color: white;
+    background: #3CB161;
+    border:none;
+    padding: 10px 0px;
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+.forgotPassword {
+    color: #838383;
+}
+.loginHeader {
+    color: #00386E;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.loginHeader h1 {
+    font-weight: 700;
+}
+.forgotPassword {
+    font-size: 1.1em;
+    color:#3CB161;
+    font-weight: 700;
+    margin-bottom: 30px;
+}
+.info-here a {
+    color:#3CB161;
+    font-weight: 700;
+    text-decoration: none;
+}
+.logo {
+    width: 20em;
+}
+.e, .schoolpedia {
+    font-size: 3.0em;
+    font-weight: 700;
+}
+.schoolpedia {
+    color: #3CB161;
+}
+.e {
+    color: #00386E;
+}
+.eschoolpedia {
+    padding-top: 30px;
+}
+.gotoHomepage {
+    margin-top: 30px;
+}
+.gotoHomepage p {
+    float: right;
+    color: black;
+    display: none;
+
+}
+.gotoHomepage p a {
+    text-decoration: none;
+    color: black;
+}
+.col-md-6 {
+    padding: 0px;
+}
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 767px) {
+    .myBackground {
+        min-height: 50vh;
+        background-repeat: repeat;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-image: linear-gradient(rgba(0, 0, 0, 0.527),rgba(0, 0, 0, 0.5)) , url(./images/ben-white-123-unsplash.jpg);
+    }
+    .loginHeader h1 {
+        font-weight: 700;
+        text-align: center;
+    }
+    .gotoHomepage p {
+        float: right;
+        color: rgb(61, 41, 41);
+        display: initial;
+    
+    }
+    .gotoHomepage p a {
+        text-decoration: none;
+        color: black;
+    }
+    .cancelIcon {
+        float: right;
+        margin-top: 30px;
+        font-size: 2.0em;
+        display: none;
+    }
+    .navbar {
+        margin-top: 20px;
+    }
+    .e, .schoolpedia {
+        font-size: 2.0em;
+    }
+    .logo {
+        display: none;
+    }
+  }
